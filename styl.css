@@ -42,6 +42,9 @@ footer{
     padding:5px;
 
 }
+.menu a:hover {
+    text-decoration: underline solid navy 1px;
+}
 .baner{
     background-color: #DDDDDD;
     height:200px;

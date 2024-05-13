@@ -28,35 +28,36 @@
     <table>
         <tr>
             <td>Imie: </td>
-            <td><input type="text"></td>
+            <td><input type="text" id="id1"></td>
         </tr>
         <tr>
             <td>Nazwisko</td>
-            <td><input type="text"></td>
+            <td><input type="text" id="id2"></td>
         </tr>
         <tr>
             <td>E-mail: </td>
-            <td><input type="email" name="email"></td>
+            <td><input type="email" name="email" id="id3"></td>
         </tr>
         <tr>
             <td>Zgłoszenie: </td>
-            <td><textarea name="zgloszenie" rows="10" cols="40"></textarea>            </td>
+            <td><textarea name="zgloszenie" rows="10" cols="40" id="id5"></textarea>            </td>
         </tr>
         <tr>
             <td></td>
-           <td> <label><input type="checkbox" name="regulamin"> Zapoznałam/em się z regulaminem</label></td>
+           <td> <label><input type="checkbox" name="regulamin" id="id4"> Zapoznałam/em się z regulaminem</label></td>
 
         </tr>
         <tr>
             <td></td>
            <td>
-            <button>Resetuj</button>
+            <button onclick="wycz()">Resetuj</button>
             <button onclick="wyk()">Prześlij</button>
            </td>
 
         </tr>
     </table>
     <hr>
+    <div id="wynik"></div>
     </section>
     <footer><p>Autor strony: Sviatoslav Zinchenko</p></footer>
     </div>
